@@ -9,11 +9,10 @@ import org.junit.runner.RunWith;
  */
 @RunWith(Cucumber.class)
 @CucumberOptions(
-        features = "src/test/java/resources/featurefile/",
+        features = "src/test/java/resources/featurefile/register.feature",
         glue = "com/nopcommerce/demo/cucumber",
-        tags = "@smoke",
         plugin = {"pretty", "html:target/cucumber-report/cucumber.html"}
 )
-public class TestRunner {
+public class RegisterTestRunner {
 
 }
